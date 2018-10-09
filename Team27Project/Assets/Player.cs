@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
     public float moveForceMultiplier = 50;
     public float jumpPower;
     bool isJumpFlag;
+    float attack;
 
 	// Use this for initialization
 	void Start () {
